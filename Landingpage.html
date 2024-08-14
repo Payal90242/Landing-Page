@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>LearnUp</title>
+   <style>
+      body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding: 0;
+  background:url('https://sitegroover.com/wp-content/uploads/2020/05/web-design-and-web-development-background-768x397.jpg');
+  background-size: cover;
+
+}
+nav
+{
+color: white;
+text-align: center;
+}
+nav ul
+{
+  list-style: none;
+  text-align: right;
+  padding-right: 20px;
+}
+nav ul li
+{
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a
+{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover
+{
+  text-decoration: underline;
+}
+header
+{
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+header h1
+{
+  font-size: 3 em;
+}
+header p
+{
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+.btn
+{
+  background-color:gainsboro;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.btn:hover
+{
+  background-color: darkgray;
+}
+.join.btn
+{
+  background-color: #ddd;
+}
+.join.btn:hover
+{
+  background-color: #ddd;
+}
+div
+{
+  color: white;
+}
+
+section
+{
+  padding: 20px;
+  text-align: center;
+  color: white;
+
+}
+section h2
+{
+  font-size: 2.5 em;
+  margin-bottom: 20px;
+}
+.about-content
+{
+  display: flex;
+  align-items:left;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.text-content
+{
+  flex: 2;
+  text-align: left;
+  order: 1;
+}
+
+.course
+{
+  margin: 20px 0;
+}
+.course h3
+{
+  font-size: 2em;
+}
+.course p
+{
+  margin: 10px 0;
+}
+.course,.testimonial
+{
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.course:hover,.testimonial:hover
+{
+  transform:translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.course p,.testimonialp
+{
+  margin: 10px 0;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+form
+{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+form label
+{
+  display: block;
+  margin: 10px 0 5px;
+}
+form input,form textarea
+{
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+}
+form button
+{
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+form button:hover
+{
+  background-color: darkgray;
+}
+footer
+{
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  color: white;
+}
+footer a
+{
+ color: white;
+ text-decoration: none;
+ margin: 0 5px;
+}
+footer a:hover
+{
+  text-decoration: underline;
+}
+   </style>
+</head>
+<body>
+   <nav>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60sYVMRI_hPI74nCJWXvzZxDTO90u4NhxSw&s" alt="logo" align="left" width="100px" height="50px">
+     <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#Courses">Courses</a></li>
+         <li><a href="#Contact">Contact</a></li>
+         <li><a href="#About">About </a></li>
+         
+      </ul>
+   </nav>
+   <header>
+      <h1>A PLACE WHERE LEARN AND GROW</h1>
+      <p>Expand your horizons with our educational courses.</p>
+      <a href="#courses" class="btn">Explore Course</a> 
+      <a href="#Join" class="btn Join-btn">Join us</a>
+   </header>
+   </section>
+   <section id="About">
+      <h2>About LearnUp</h2>
+      <div class="text-content">
+         <p>At LearnUp , we believe in empowering individuals through quality education. our mission is to provide accessible,affordable and high-quality learning experiences for everyone.With a diverse range of courses and a commitment to their personal and professionals goals.</p>
+         <p>
+            Our team consists of passionate experts from various fields,dedicated to creating a positive and impactful learning environment.
+         </p>
+         <h3>Our Mission</h3>
+         <p>To make education accessible to everyone and foster lifelong learning.</p>
+         <h3>Our vision</h3>
+         <p>To be a leading provider of innovative and impactful educational experience.</p>
+         <h3> Our values</h3>
+         <ul>
+            <li>Excellence in education</li>
+            <li>Inclusivity and diversity</li>
+            <li>Continuous Improvement</li>
+            <li>Community and collaboration</li>
+         </ul>
+      </div>
+      <div class="image-content">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEe6l0uA3g-GnCtSwyZCXhzAV356EabIjvgg&s"  alt="About us image" align="right" width="400px" height="300px">
+      </div>
+   </section>
+   <div class="Course">
+      <h1>Our Courses</h1>
+         <ul>
+            <li>Programming languages</li>
+            <li>Web development</li>
+            <li>Data science and analytics</li>
+            <li>Cybersecurity</li>
+            <li>Aritifcial Intelligence</li>
+            <li>Mobile app development</li>
+            <li>Database management</li>
+            <li>Cloud computing</li>
+            <li>Software development</li>
+            <li>Game development</li>
+         </ul>
+      </div>
+   <section id="testimonials">
+      <h2>What Our student say---</h2>
+      <div class="testimonials">
+         <p>"This course transformed my career.The instructors were amazing and the content was practical and relevant."</p>
+         <br>
+         <p>"I learned so much and was able to apply it immediately in my job.Highly recommend!"</p>
+      </div>
+   </section>
+   <section id="Join">
+      <h2>Join LearnUp</h2>
+      <p>If you are ready to take the next step in your educational journey,Join us today!</p>
+   </section>
+   <section id="Contact">
+      <h2>Contact LearnUp</h2>
+      <form action="#" method="post">
+         <label for="Name" > Name:</label>
+         <input type="text" id="name" name="name" required>
+         <label for="E-mail" > E-mail:</label>
+         <input type="E-mail" id="E-mail" name="E-mail" required>
+         <label for=" Message" > Message</label>
+         <textarea id=" Message" name=" Message" rows="4" required></textarea>
+         <br>
+         <button type="Submit" class="btn">Send Message</button>
+      </form>
+   </section>
+   <footer>
+      <p>
+         Follow us on:
+         <a href="#">Linkedin</a>
+         <a href="#">Instagram</a>
+         <a href="#" >Twitter</a>
+      </p>
+   </footer>
+
+</body>
+</html>
